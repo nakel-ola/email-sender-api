@@ -1,0 +1,34 @@
+{
+  "name": "email-sender-api",
+  "version": "1.0.0",
+  "description": "EmailSenderAPI is a secure and scalable Node.js web server API for efficient email sending, supporting individual and bulk email delivery. Simplify your email communication with built-in API key management and flexible plans.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "build": "npm install && tsc -p .",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Nunu Olamilekan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/nodemailer": "^6.4.8",
+    "@types/uuid": "^9.0.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "html-validate": "^8.0.5",
+    "mongodb": "^5.6.0",
+    "nodemailer": "^6.9.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17",
+    "uuid": "^9.0.0",
+    "zod": "^3.21.4"
+  }
+}
